@@ -1,13 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primer HTML</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <h1>Hola, Mundo</h1>
-    <p>Esto es un parrafo de ejemplo</p>
+    <header>
+        <h1>Bienvenido a Mi Página Web</h1>
+        <nav>
+            <a href="#seccion1">Sección 1</a> |
+            <a href="#seccion2">Sección 2</a> |
+            <a href="#seccion3">Sección 3</a>
+        </nav>
+    </header>
+
+    <section id="seccion1">
+        <h2>Sección 1</h2>
+        <p>Este es un párrafo en la primera sección.</p>
+    </section>
+
+    <section id="seccion2">
+        <h2>Sección 2</h2>
+        <table>
+            <tr>
+                <td>Celda 1</td>
+                <td>Celda 2</td>
+            </tr>
+            <tr>
+                <td>Celda 3</td>
+                <td>Celda 4</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="seccion3">
+        <h2>Sección 3</h2>
+        <img src="assets/imágenes/imagen.jpg" alt="Descripción de la imagen">
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mi Página Web</p>
+    </footer>
 </body>
 </html>
